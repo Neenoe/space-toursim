@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.app__destination_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.app__destination_left {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+}
+
+.app__destination_left_pick {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__destination_left_pick span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 27px;
+    color: #fff;
+    line-height: 34px;
+    letter-spacing: 4px;
+    opacity: 0.25;
+    mix-blend-mode: normal;
+    margin-top: 1.5rem;
+}
+
+.app__destination_left_pick p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.app__destination_left_img {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+.app__destination_left_img img {
+    width: 80%;
+    height: 80%;
+}
+
+.app__destination_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app__destination_right_lists {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+.app__destination_right_lists_ul {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: -4rem;
+    
+}
+
+.app__destination_right_lists_ul li {
+    margin-left: 2rem;
+    list-style-type: none;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+}
+
+.app__destination_right_lists_ul li:hover {
+    color: #fff;
+}
+
+.app__destination_right_texts h1 {
+    color: #fff;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 15px;
+    text-align: start;
+
+}
+
+.app__destination_right_texts p {
+   font-family: 'Barlow';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+   color: #D0D6F9;
+   text-align: start;
+   max-width: 500px;
+   display: flex;
+   margin-right: 6rem;
+   justify-content: flex-start;
+}
+
+.app__destination_right_line {
+    width: 80%;
+    background-color: #383b4b;
+    height: 2px;
+    margin-bottom: 1rem;
+}
+.app__destination_right_distance {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    justify-content: flex-start;
+}
+
+.app__destination_right_distance_km,
+.app__destination_right_distance_time {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 2rem;
+
+}
+
+.app__destination_right_distance_km span,
+.app__destination_right_distance_time span {
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: #D0D6F9;
+    letter-spacing: 2.3px;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+
+.app__destination_right_distance_km p,
+.app__destination_right_distance_time p {
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media screen and (max-width: 1190px){
+    .app__destination_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

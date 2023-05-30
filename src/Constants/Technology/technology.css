@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app__technology_container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.app__technology_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    padding: 1rem 4rem;
+}
+
+.app__technology_left_intro {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.app__technology_left_intro p{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    letter-spacing: 4.725px;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-top: -0.01rem;
+  
+}
+
+.app__technology_left_intro span {
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+letter-spacing: 4.725px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 2rem;
+
+
+
+}
+
+.app__technology_left_term {
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #D0D6F9;
+
+}
+
+.app__technology_left_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app__technology_left_lists {
+    display: flex;
+    text-decoration: none;
+}
+
+.app__technology_left_lists ul {
+   
+    text-align: center;
+}
+
+.app__technology_left_info {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.app__technology_left_lists ul li {
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-color: #FFFFFF;
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #0B0D17;
+cursor: pointer;
+}
+.app__technology_left_lists ul li:active {
+    background-color: red;
+}
+
+.app__technology_left_info h3 {
+    font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 64px;
+
+color: #FFFFFF;
+text-align: start;
+text-transform: uppercase;
+}
+
+.app__technology_left_info span {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #D0D6F9;
+text-align: start;
+margin-left: 4rem;
+margin-top: -2rem;
+
+}
+.app__technology_right_img {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.app__technology_right_img img{
+    width: 515px;
+    height: 527px;
+}

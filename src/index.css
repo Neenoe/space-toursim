@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Bellefair&display=swap');
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --font-family: 'Barlow Condensed' sans-serif;
+  --font-two: 'Bellefair', serif;
+  --primary-color: #0B0D17;
+  --secondary-color: #D0D6F9;
+  --tertiary-color: #ffff;
+}
